@@ -1,0 +1,262 @@
+/* Css for php lab 6, Feb 27th, ONLINE STORE */
+
+/* Header and nav bar */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato" !important;
+  font-weight: 300 !important;
+}
+
+.header-banner {
+  background: url("../images/header-image.jpg") -861px -467px;
+  width: 100%;
+  margin: 0 auto;
+  height: 400px;
+
+}
+
+.tag-line {
+  font-size: 2em;
+  line-height: 1.2;
+  color: white;
+  text-align: center;
+}
+
+.bg-yellow {
+  background: #cc8d26 !important;
+}
+
+.banner-overlay {
+  background: #2c2c2c80;
+  margin-top: 2em;
+  height: 300px;
+  border-radius: 12px;
+}
+
+.display-4 {
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica;
+  font-weight: 300;
+}
+
+.product-name {
+  text-align: left;
+}
+
+header .display-1 {
+  color: white;
+  font-size: 4em;
+  font-family: "Lato", "Helvetica Neue", Helvetica;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1.3em;
+  letter-spacing: 12px;
+  font-weight: light;
+}
+
+
+/* masonary card styling */
+
+.card-columns {
+  margin-top: 2em;
+}
+.card {
+  box-shadow: 0px 10px 16px rgba(0,0,0,0.1);
+  border: 0;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-color: currentcolor;
+  border-top: 1px solid rgba(105, 105, 105, 0.1) !important;
+  padding-top: 5px;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-family: "Lato";
+  font-weight: 300;
+}
+
+form.product, form.cart, form.order {
+  padding: 2em;
+  box-shadow: grey 1px 1px 12px;
+  width: 100%;
+  margin-top: 1em;
+}
+
+
+
+.container {
+  margin-top: 2em;
+  padding: 2em;
+}
+
+li {
+  list-style: none;
+  display: block;
+  margin: 3px;
+  padding: 5px;
+}
+
+h3, h4 {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.button {
+  color: #fff;
+  cursor: pointer;
+  font-weight: 300;
+  border-radius: 4px;
+  width: auto;
+  padding: 1em 1.175em;
+  letter-spacing: 2px;
+  font-size: .8em;
+  line-height: 1.133;
+  border: 0 solid transparent;
+  text-transform: uppercase;
+  transition: all .3s ease 0s;
+  background: #969696;
+  margin-top: 1em;
+}
+.button:hover {
+  background: rgb(239, 89, 38);
+}
+
+.no-flex .button {
+  background: white;
+  color: #cc8d26;
+  font-size: 1.1em;
+}
+
+.no-flex .button:hover {
+  color: #4b3717;
+}
+
+a.button:hover {
+  text-decoration: none;
+  color: white;
+
+}
+
+.cart-button {
+  background: rgba(239,89,38,.75);
+}
+
+.cart-button:hover {
+  background: rgb(239, 89, 38);
+}
+
+.button-small {
+  font-size: .6em;
+  padding: .8em;
+}
+
+.note {
+  font-style: italic;
+}
+
+.info {
+  background: #61125a;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  font-size: 1.3em;
+  color: white;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+hr {
+  margin: 2rem 0 !important;
+}
+
+img {
+  max-width: 300px;
+  width: auto;
+  height: auto;
+}
+
+.quantity {
+  width: 40px;
+  height: 38px;
+}
+
+.cart-heading {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.admin-orders {
+  border: 1px solid black;
+  margin-bottom: 4em;
+  padding: 2em !important;
+}
+
+.cart-icon-total {
+  background: url("../images/cart.png") -5px 8px;
+  background-repeat: repeat;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 03px 3px 3px 15px;
+  margin: 0px;
+}
+
+.inventory {
+  padding: 3em 3em !important;
+}
+
+.customer-name {
+  font-weight: bold;
+}
+
+.order-total {
+  float: right;
+  margin-right: 2em;
+}
+
+.order-total .price {
+  font-weight: bold;
+}
+
+.no-flex {
+  flex: none !important;
+  margin-left: 69px !important;
+  margin-right: 0px;
+}
+
+.centre {
+  margin: 0 auto;
+}
+
+.categories {
+  margin-bottom: 4.2rem;
+}
+
+.all-products {
+  margin-bottom: 4.2rem;
+  margin-top: 4.2rem;
+}
+
+/* footer */
+
+footer {
+  background: #cc8d26;
+  height: 4em;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.debug {
+  background: yellow;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  font-size: .8em;
+  color: black;
+  border-radius: 10px;
+  max-width: 500px;
+}
